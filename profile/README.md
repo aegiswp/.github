@@ -5,6 +5,10 @@ Welcome to the **Aegis WordPress Block Theme**, a modern, lightweight, and commu
 
 ![AegisWP](https://github.com/user-attachments/assets/4a923c3a-fada-4400-9345-bffe949d31f1)
 
+[![Aegis Theme](https://img.shields.io/badge/aegis-theme-green)](https://github.com/aegiswp/theme/)
+[![Aegis Plugin](https://img.shields.io/badge/aegis-plugin-black)](https://github.com/aegiswp/)
+[![Five for the Future](https://img.shields.io/badge/wordpress-five_for_the_future-blue)](https://wordpress.org/five-for-the-future/pledge/atmostfear-entertainment/)
+
 ## About the Aegis Theme
 
 Aegis is a block theme built with the future of WordPress in mind. It leverages WordPress’s [**Full Site Editing**](https://wordpress.org/documentation/article/site-editor/) features to give users granular control over their website's appearance without writing a single line of code. With predefined styles and flexibility to create custom layouts, Aegis is designed to be accessible, fast, and easy to extend.
