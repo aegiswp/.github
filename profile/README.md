@@ -5,56 +5,69 @@ Welcome to the **Aegis WordPress Block Theme**, a modern, lightweight, and commu
 
 ![AegisWP](https://github.com/user-attachments/assets/4a923c3a-fada-4400-9345-bffe949d31f1)
 
-[![Aegis Theme](https://img.shields.io/badge/aegis-theme-green)](https://github.com/aegiswp/theme/)
+[![Aegis Theme](https://img.shields.io/badge/aegis-theme-green)](https://github.com/aegiswp/aegis)
 [![Aegis Plugin](https://img.shields.io/badge/aegis-plugin-black)](https://github.com/aegiswp/)
 [![Five for the Future](https://img.shields.io/badge/wordpress-five_for_the_future-blue)](https://wordpress.org/five-for-the-future/pledge/atmostfear-entertainment/)
 
 ## About the Aegis Theme
 
-Aegis is a block theme built with the future of WordPress in mind. It leverages WordPress’s [**Full Site Editing**](https://wordpress.org/documentation/article/site-editor/) features to give users granular control over their website's appearance without writing a single line of code. With predefined styles and flexibility to create custom layouts, Aegis is designed to be accessible, fast, and easy to extend.
+Aegis is a block theme built with the future of WordPress in mind. It leverages WordPress’s [**Full Site Editing**](https://wordpress.org/documentation/article/site-editor/) features to give users granular control over their website's appearance without writing a single line of code. With a theme.json design system and the flexibility to create custom layouts, Aegis is designed to be accessible, fast, and easy to extend.
 
 Some key features include:
-- **Full Site Editing**: Complete control over templates and global styles.
-- **Customizable Block Patterns**: Pre-designed sections for headers, footers, galleries, and more.
-- **Clean and Minimalist Design**: Focuses on performance and aesthetics.
-- **Accessibility Ready**: Built with best practices to ensure usability for everyone.
+- **Full Site Editing**: Complete control over templates, template parts and Global Styles.
+- **232 Block Patterns**: Ready-made sections and full pages (headers, footers, heroes, blogs, portfolios, pricing, testimonials and more) in 28 categories.
+- **60 Style Variations**: Tailwind-aligned color palettes with dark mode support.
+- **Fluid Design System**: Fluid typography, spacing, shadow and gradient presets, all driven by theme.json.
+- **Custom Blocks**: Countdown, Slider, Toggle and Related Posts, plus enhanced core blocks. Map and Modal blocks come with the companion plugin.
+- **Accessibility Ready**: Built toward WCAG 2.2 AA, with landmarks, skip links, visible focus styles, reduced-motion support and keyboard-friendly blocks.
+- **Performance First**: Vanilla JavaScript and conditionally loaded CSS, so assets load only when a page needs them.
+- **Plugin Integrations**: Styling for WooCommerce, Fluent Forms, Gravity Forms, LearnDash, Easy Digital Downloads and more.
 
-### Current Version: 1.0.0-beta.2
+The free companion plugin, **Aegis Dash**, adds the Map and Modal blocks, connectors and admin tools.
 
-We are continuously improving the theme based on feedback from the community. **Please note** that this is a beta release, and we encourage contributions, testing, and issue reporting to enhance the final product.
+Find the latest version and release notes on the [Releases](https://github.com/aegiswp/aegis/releases) page.
 
 ## How to Install
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/aegiswp/theme.git
-   
-2. Upload the theme to your WordPress theme directory:
-   ```bash
-   wp-content/themes/
+**Requirements:** WordPress 7.0+ and PHP 8.1+.
 
-3. Activate the theme from your WordPress dashboard.
+1. Download the latest zip from the [Releases](https://github.com/aegiswp/aegis/releases) page, or clone the repository:
+   ```bash
+   git clone https://github.com/aegiswp/aegis.git
+   ```
 
-For detailed usage and customization guides, please refer to our [documentation](https://github.com/aegiswp/theme/wiki).
+2. If you cloned the repository, install the PHP dependencies from the theme directory. The theme will not load without the `vendor/` folder:
+   ```bash
+   composer install --no-dev
+   ```
+
+3. Place the theme in your WordPress themes directory:
+   ```
+   wp-content/themes/aegis
+   ```
+
+4. Activate Aegis from **Appearance → Themes** in your WordPress dashboard.
+
+For detailed usage and customization guides, see the [documentation](https://github.com/aegiswp/aegis/tree/main/docs).
 
 ## Contributing
 
-We welcome contributions from developers, designers, and the wider WordPress community. To contribute:
-1. Fork this repository.
-  
-2. Create a new branch with your feature or fix:
+We welcome contributions from developers, designers, testers and the wider WordPress community. Please read the [Contributing guide](https://github.com/aegiswp/aegis/blob/main/CONTRIBUTING.md) and the [Code of Conduct](https://github.com/aegiswp/aegis/blob/main/CODE_OF_CONDUCT.md) first. To contribute code:
+
+1. Fork the [aegis](https://github.com/aegiswp/aegis) repository.
+2. Create a branch for your feature or fix:
    ```bash
    git checkout -b feature-name
-
+   ```
 3. Commit your changes:
    ```bash
    git commit -m "Add new feature"
-
-4. Push to the branch:
+   ```
+4. Push the branch:
    ```bash
    git push origin feature-name
-
-5. Open a [pull request](https://github.com/aegiswp/theme/pulls), and we will review it as soon as possible.
+   ```
+5. Open a [pull request](https://github.com/aegiswp/aegis/pulls), preferably linked to an existing [issue](https://github.com/aegiswp/aegis/issues). We will review it as soon as possible.
 
 ## About Atmostfear Entertainment
 
@@ -68,4 +81,4 @@ Explore our website: [Atmostfear Entertainment](https://www.atmostfear-entertain
 
 ## License
 
-This project is licensed under the **GPLv2** or later. See the [LICENSE](https://github.com/aegiswp/theme/blob/1.0.0-beta.3/LICENSE) file for more details.
+This project is licensed under the **GPLv2** or later. See the [LICENSE](https://github.com/aegiswp/aegis/blob/main/LICENSE) file for more details.
