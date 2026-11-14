@@ -6,7 +6,7 @@ Welcome to the **Aegis WordPress Block Theme**, a modern, lightweight, and commu
 ![AegisWP](https://github.com/user-attachments/assets/4a923c3a-fada-4400-9345-bffe949d31f1)
 
 [![Aegis Theme](https://img.shields.io/badge/aegis-theme-green)](https://github.com/aegiswp/aegis)
-[![Aegis Plugin](https://img.shields.io/badge/aegis-plugin-black)](https://github.com/aegiswp/)
+[![Aegis Plugin](https://img.shields.io/badge/aegis-plugin-black)](https://github.com/aegiswp/aegis-dash)
 [![Five for the Future](https://img.shields.io/badge/wordpress-five_for_the_future-blue)](https://wordpress.org/five-for-the-future/pledge/atmostfear-entertainment/)
 
 ## About the Aegis Theme
@@ -23,7 +23,7 @@ Some key features include:
 - **Performance First**: Vanilla JavaScript and conditionally loaded CSS, so assets load only when a page needs them.
 - **Plugin Integrations**: Styling for WooCommerce, Fluent Forms, Gravity Forms, LearnDash, Easy Digital Downloads and more.
 
-The free companion plugin, **Aegis Dash**, adds the Map and Modal blocks, connectors and admin tools.
+The free companion plugin, [**Aegis Dash**](https://github.com/aegiswp/aegis-dash), adds the Map and Modal blocks, connectors and admin tools.
 
 Find the latest version and release notes on the [Releases](https://github.com/aegiswp/aegis/releases) page.
 
